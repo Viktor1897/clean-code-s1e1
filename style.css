@@ -21,7 +21,7 @@ body {
 .advertisement { text-align: center;
 }
 }
-.centered-main-page-element {
+.todo-container {
     display: block;
     width: 400px;
     margin: 0 auto 0;
