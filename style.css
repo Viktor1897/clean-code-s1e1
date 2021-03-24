@@ -13,7 +13,7 @@ body {
 .advertisement__image {
     width: 100%;
 }
-.advertisement .more_inf {
+.advertisement__more-details {
     font-family: fantasy, cursive;
 }
 
@@ -87,7 +87,7 @@ label[for="new-task"] {
 #new-task {
     width: 318px;
 }
-p > button:hover {
+.add-btn:hover {
     color: #0fc57c;
 }
 
@@ -136,11 +136,11 @@ ul li input[type="text"] {
     display:none
 }
 
-ul li.editMode input[type="text"] {
+ul li.edit-mode input[type="text"] {
     display:inline-block;
     width:224px
 }
 
-ul li.editMode label {
+ul li.edit-mode label {
     display:none;
 }
