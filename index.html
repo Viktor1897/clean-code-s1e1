@@ -37,16 +37,18 @@
         </li>
       </ul>
     </section>
+    <section class="completed-tasks">
     <h3 class="section-title">Completed</h3>
-    <ul id="completed-tasks">
-      <li class="task-item">
-        <input type="checkbox" checked>
-        <label class="task label-editing completed-task__label">See the Doctor</label>
-        <input type="text" class="task task-editing">
-        <button class="edit-btn">Edit</button>
-        <button class="delete-btn"><img class="delete-btn__image" src="./remove.svg"></button>
-      </li>
-    </ul>
+      <ul class="completed-tasks-storage__list" id="completed-tasks-list">
+        <li class="task-item">
+          <input type="checkbox" checked>
+          <label class="task label-editing strikethrough">See the Doctor</label>
+          <input type="text" class="task task-editing">
+          <button class="edit-btn">Edit</button>
+          <button class="delete-btn"><img class="delete-btn__image" src="./remove.svg"></button>
+        </li>
+      </ul>
+    </section>
   </main>
   <script src="app.js"></script>
 </body>
