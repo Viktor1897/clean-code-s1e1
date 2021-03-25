@@ -18,9 +18,12 @@ body {
 }
 
 @media (max-width:768px) {
-.advertisement { text-align: center;
+  
+  .advertisement { text-align: center;
+  }
+
 }
-}
+
 .todo-container {
     display: block;
     width: 400px;
