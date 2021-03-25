@@ -34,15 +34,14 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.add-new-task__task-row-wrapper {
   display: flex;
 }
 ul {
   margin:0;
-  padding: 0px;
+  padding: 0;
 }
-li, 
-h3 {
+li {
   list-style: none;
 }
 input,
@@ -62,8 +61,7 @@ button:hover {
     color: #3a3a3a;
 }
 /* Heading */
-h3,
-label[for="new-task"] {
+.section-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -101,7 +99,7 @@ label[for="new-task"] {
 }
 
 /* Task list */
-li {
+.task-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
